@@ -45,3 +45,11 @@ INSERT INTO Students VALUES
 INSERT INTO Students VALUES (11, 'Zahra', 'Asadollahi', 96);    
 
 
+-- Create Another Table
+CREATE TABLE Scores(
+	Student_ID INT,
+    Score INT DEFAULT 10,
+    PRIMARY KEY (Student_ID)
+);
+
+
