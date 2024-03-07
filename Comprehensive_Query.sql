@@ -63,5 +63,13 @@ VALUES (3);
 
 
 -- Select Data From a Table
-SELECT * FROM Scores;
+SELECT * FROM Students;
+
+
+-- Add Constraint to an Existing Table
+ALTER TABLE Students
+ADD PRIMARY KEY (Student_ID);
+
+ALTER TABLE Students
+Drop PRIMARY KEY;
 
