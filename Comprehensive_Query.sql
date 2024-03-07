@@ -1,10 +1,6 @@
 -- This Is a Comment
 
 
--- Drop/Delete Database
-DROP DATABASE testdb;
-
-
 -- Create Database
 CREATE DATABASE database_name;
 
@@ -80,4 +76,3 @@ DROP TABLE Students;
 
 -- Dtop Database
 DROP DATABASE testdb;
-
