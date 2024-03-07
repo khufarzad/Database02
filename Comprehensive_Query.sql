@@ -52,4 +52,16 @@ CREATE TABLE Scores(
     PRIMARY KEY (Student_ID)
 );
 
+-- Insert Data Into Table
+
+INSERT INTO Scores VALUES
+	(1, 20),
+    (2, 15);
+
+INSERT INTO Scores(Student_ID)
+VALUES (3);
+
+
+-- Select Data From a Table
+SELECT * FROM Scores;
 
