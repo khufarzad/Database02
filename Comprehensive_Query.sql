@@ -73,3 +73,11 @@ ADD PRIMARY KEY (Student_ID);
 ALTER TABLE Students
 Drop PRIMARY KEY;
 
+
+-- Drop Table
+DROP TABLE Students;
+
+
+-- Dtop Database
+DROP DATABASE testdb;
+
